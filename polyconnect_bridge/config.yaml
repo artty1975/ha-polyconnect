@@ -16,8 +16,8 @@ ports_description:
   8765/tcp: "Bridge API (HA ingress)"
 options:
   log_level: "info"
-  email: ""
-  password: ""
+  email: "str"
+  password: "password"
 schema:
   log_level: "list(trace|debug|info|warning|error)"
   email: "email?"
